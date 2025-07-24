@@ -12,15 +12,7 @@ export default function Projects() {
   const [isAutoSliding, setIsAutoSliding] = useState(true)
 
   const projects = [
-    {
-      title: "E-Commerce Website",
-      description:
-        "Built a responsive furniture e-commerce website using Next.js and Tailwind CSS, featuring a dynamic Shop page, detailed product view, and fully functional Add to Cart system.",
-      image: "/ecommerce.jpg",
-      technologies: ["Next.js", "Tailwind CSS"],
-      liveUrl: "https://milestone-3-e-commerce-website-two.vercel.app",
-      githubUrl: "https://github.com/sadiaromi/Milestone-3-e-commerce-website.git",
-    },
+    
     {
       title: "Smart ToDo App",
       description:
